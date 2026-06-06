@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio Kodi - EduTeAmo</title>
+    <style>
+        :root {
+            --bg-color: #0d0e15;
+            --card-bg: #161824;
+            --text-color: #f3f4f6;
+            --text-muted: #9ca3af;
+            --primary: #fbbf24;
+            --primary-hover: #f59e0b;
+            --border-color: #2d3142;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 600px;
+            padding: 2rem;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 2.5rem;
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3), 0 8px 10px -6px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo {
+            width: 96px;
+            height: 96px;
+            margin-bottom: 1.5rem;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(251, 191, 36, 0.2);
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin: 0 0 0.5rem 0;
+            color: var(--text-color);
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            font-size: 1rem;
+        }
+
+        .download-btn {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #000;
+            font-weight: 600;
+            padding: 0.8rem 2rem;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: background-color 0.2s, transform 0.1s;
+            margin-bottom: 1.5rem;
+            font-size: 1.05rem;
+        }
+
+        .download-btn:hover {
+            background-color: var(--primary-hover);
+            transform: translateY(-1px);
+        }
+
+        .download-btn:active {
+            transform: translateY(0);
+        }
+
+        .info-box {
+            background-color: rgba(255, 255, 255, 0.03);
+            border: 1px dashed var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            text-align: left;
+            font-size: 0.9rem;
+        }
+
+        .info-title {
+            font-weight: 600;
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+        }
+
+        code {
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.85rem;
+            word-break: break-all;
+        }
+
+        .footer {
+            margin-top: 2rem;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img class="logo" src="repository.eduteamo/icon.png" alt="EduTeAmo Logo" onerror="this.src='zips/plugin.video.eduteamo/icon.png'">
+            <h1>Repositorio EduTeAmo</h1>
+            <p class="subtitle">Repositorio oficial para instalar el addon EduTeAmo y el skin Estuary Eduteamo.</p>
+            
+            <a href="repository.eduteamo.zip" class="download-btn">Descargar repository.eduteamo.zip</a>
+            
+            <div class="info-box">
+                <div class="info-title">Cómo instalar en Kodi:</div>
+                <ol style="margin: 0; padding-left: 1.2rem; color: var(--text-muted); line-height: 1.5;">
+                    <li>Descarga el archivo <code>repository.eduteamo.zip</code> arriba.</li>
+                    <li>Abre Kodi y ve a <strong>Ajustes</strong> -> <strong>Add-ons</strong>.</li>
+                    <li>Selecciona <strong>Instalar desde archivo zip</strong> y elige el archivo descargado.</li>
+                    <li>Una vez instalado, selecciona <strong>Instalar desde repositorio</strong> -> <strong>Repositorio EduTeAmo</strong> para instalar el addon y la skin.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="footer">
+            Alojado en <a href="https://github.com/esdutiii/kodi" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
