@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+  <addon id="repository.eduteamo" name="Repositorio EduTeAmo" version="1.0.0" provider-name="EduTeAmo">
+      <extension point="xbmc.addon.repository" name="EduTeAmo y Skin Estuary Eduteamo">
+      	<dir minversion="19.0.0">
+      	    <info compressed="false">https://raw.githubusercontent.com/esdutiii/kodi/main/addons.xml</info>
+          	<checksum>https://raw.githubusercontent.com/esdutiii/kodi/main/addons.xml.md5</checksum>
+          	<datadir zip="true">https://raw.githubusercontent.com/esdutiii/kodi/main/zips/</datadir>
+  	    </dir>
+  	</extension>
+  	<extension point="xbmc.addon.metadata">
+  		<summary lang="es">Repositorio oficial de EduTeAmo y Estuary Eduteamo</summary>
+  		<summary lang="en">Official repository for EduTeAmo and Estuary Eduteamo</summary>
+     		<description lang="es">Repositorio para instalar el addon EduTeAmo y el skin Estuary Eduteamo personalizado.</description>
+     		<description lang="en">Repository to install the EduTeAmo addon and the custom Estuary Eduteamo skin.</description>
+  		<platform>all</platform>
+  		<assets>
+              <icon>icon.png</icon>
+              <fanart>fanart.jpg</fanart>
+          </assets>
+  	</extension>
+  </addon>
+
+  ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+  <addon id="plugin.video.eduteamo" name="[COLOR gold]EduTeAmo[/COLOR]" version="3.3.9" provider-name="edu">
+    <requires>
+      <import addon="xbmc.python" version="3.0.0"/>
+      <import addon="script.module.inputstreamhelper" version="0.5.0"/>
+      <import addon="script.module.pycryptodome" version="3.4.3"/>
+      <import addon="script.module.requests"/>
+    </requires>
+  
+    <extension point="xbmc.python.pluginsource" library="default.py">
+      <provides>video</provides>
+    </extension>
+    <extension point="xbmc.python.library" library="default.py"/>
+  
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+          <item library="context.py">
+            <label>[COLOR gold]MenÃº EduTeAmo...[/COLOR]</label>
+            <visible>String.Contains(ListItem.FolderPath,eduteamo)</visible>
+          </item>
+        </menu>
+    </extension>
+  
+    <extension point="xbmc.addon.metadata">
+      <description>Visualiza el contenido de la nube, series, pelÃ­culas.[CR][COLOR red]Todo el contenido disponible en este Addon esta sacado de servidores gratuitos, disponible en la red para todos los usuarios.[/COLOR]</description>
+      <disclaimer>Este es un software [COLOR red][B]gratuito[/B][/COLOR][CR][COLOR red][B]Pero no se permite[/B][/COLOR] su distribuiciÃ³n preinstalada en ningÃºn tipo de dispositivo ni tampoco su inclusiÃ³n total o parcial en cualquier paquete de software y/o hardware por el que el usuario final deba [COLOR red][B]pagar o hacer una donaciÃ³n[/B][/COLOR], por su adquisiciÃ³n, por su uso o por recibir asistencia.[CR]Si cree que alguna de estas normas no se estÃ¡ cumpliendo pÃ³ngase en contacto con nosotros.</disclaimer>
+      <platform>all</platform>
+      <assets>
+          <icon>icon.png</icon>
+          <fanart>fanart.gif</fanart>
+          <screenshot>resources/media/Captura1.png</screenshot>
+          <screenshot>resources/media/Captura2.png</screenshot>
+          <screenshot>resources/media/Captura3.png</screenshot>
+          <screenshot>resources/media/Captura4.png</screenshot>
+      </assets>
+      <forum>https://matrix.to/#/#eduteamo-3:matrix.org</forum>
+    </extension>
+  </addon>
+
+  <addon id="skin.estuary.eduteamo" version="1.4.1" name="Estuary Eduteamo" provider-name="Eduteamo">
+  	<requires>
+  		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
+  		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
+  	</requires>
+  	<extension point="xbmc.gui.skin" debugging="false">
+  		<!-- <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+  		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+  		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+  		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" /> -->
+  		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+  		<!-- <res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+  		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+  		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" /> -->
+  	</extension>
+  	<extension point="xbmc.addon.metadata">
+  		<platform>all</platform>
+  		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+  		<forum></forum>
+  		<source></source>
+  		<assets>
+  			<icon>resources/icon.png</icon>
+  			<fanart>resources/fanart.jpg</fanart>
+  			<screenshot>extras/views/Amplia.png</screenshot>
+  			<screenshot>extras/views/Fanart.png</screenshot>
+  			<screenshot>extras/views/Flix Episodes.png</screenshot>
+  			<screenshot>extras/views/Flix Seasons 2.png</screenshot>
+  			<screenshot>extras/views/Flix Seasons.png</screenshot>
+  			<screenshot>extras/views/Flix.png</screenshot>
+  			<screenshot>extras/views/Iconwall.png</screenshot>
+  			<screenshot>extras/views/Infowall.png</screenshot>
+  			<screenshot>extras/views/Lista.png</screenshot>
+  			<screenshot>extras/views/Mayusc.png</screenshot>
+  			<screenshot>extras/views/Muro.png</screenshot>
+  			<screenshot>extras/views/Poster.png</screenshot>
+  		</assets>
+  		<summary lang="es_ES">Estuary Eduteamo, modificacion del skin creado por phil65 y Piers adaptado especialmente para Eduteamo.</summary>
+  		<summary lang="en_GB">Estuary Eduteamo, modification of the skin created by phil65 and Piers adapted especially for Eduteamo.</summary>
+  	</extension>
+  </addon>
+
+</addons>
