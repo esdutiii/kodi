@@ -21,7 +21,7 @@
   	</extension>
   </addon>
 
-  <addon id="plugin.video.eduteamo" name="[COLOR gold]EduTeAmo[/COLOR]" version="3.4.6" provider-name="edu">
+  <addon id="plugin.video.eduteamo" name="[COLOR gold]EduTeAmo[/COLOR]" version="3.4.7" provider-name="edu">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.inputstreamhelper" version="0.5.0"/>
@@ -59,7 +59,7 @@
     </extension>
   </addon>
 
-  <addon id="skin.estuary.eduteamo" version="1.4.3" name="Estuary Eduteamo" provider-name="Eduteamo">
+  <addon id="skin.estuary.eduteamo" version="1.4.4" name="Estuary Eduteamo" provider-name="Eduteamo">
   	<requires>
   		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
   		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
