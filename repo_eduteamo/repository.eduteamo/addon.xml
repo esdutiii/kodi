@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.eduteamo" name="Repositorio EduTeAmo" version="1.0.0" provider-name="EduTeAmo">
+<addon id="repository.eduteamo" name="Repositorio EduTeAmo" version="1.0.1" provider-name="EduTeAmo">
     <extension point="xbmc.addon.repository" name="EduTeAmo y Skin Estuary Eduteamo">
     	<dir minversion="19.0.0">
-    	    <info compressed="false">https://raw.githubusercontent.com/esdutiii/kodi/main/addons.xml</info>
-        	<checksum>https://raw.githubusercontent.com/esdutiii/kodi/main/addons.xml.md5</checksum>
-        	<datadir zip="true">https://raw.githubusercontent.com/esdutiii/kodi/main/zips/</datadir>
+    	    <info compressed="false">https://raw.githubusercontent.com/esdutiii/kodi/main/repo_eduteamo/addons.xml</info>
+        	<checksum>https://raw.githubusercontent.com/esdutiii/kodi/main/repo_eduteamo/addons.xml.md5</checksum>
+        	<datadir zip="true">https://raw.githubusercontent.com/esdutiii/kodi/main/repo_eduteamo/zips/</datadir>
 	    </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
