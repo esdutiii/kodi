@@ -16,6 +16,7 @@ skin.estuary.eduteamo/
 plugin.video.palantir3/
 skin.estuary.palantir/
 repo_estupalant_temp/
+repository.estupalant/
 
 # Ignorar scripts auxiliares, desensamblados y archivos de prueba en la raíz
 *.py
