@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="repository.eduteamo" name="Repositorio EduTeAmo" version="1.0.1" provider-name="EduTeAmo">
+  <addon id="repository.eduteamo" name="Repositorio EduTeAmo" version="1.0.2" provider-name="EduTeAmo">
       <extension point="xbmc.addon.repository" name="EduTeAmo y Skin Estuary Eduteamo">
       	<dir minversion="19.0.0">
       	    <info compressed="false">https://raw.githubusercontent.com/esdutiii/kodi/main/repo_eduteamo/addons.xml</info>
