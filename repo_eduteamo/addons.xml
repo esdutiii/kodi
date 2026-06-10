@@ -59,10 +59,10 @@
     </extension>
   </addon>
 
-  <addon id="skin.estuary.eduteamo" version="1.4.6" name="Estuary Eduteamo" provider-name="Eduteamo">
+  <addon id="skin.estuary.eduteamo" version="1.4.7" name="Estuary Eduteamo" provider-name="Eduteamo">
   	<requires>
   		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
-  		<import addon="script.skinshortcuts" version="0.4.0"  optional="true"/>
+  		<import addon="script.skinshortcuts" version="0.4.0"/>
   	</requires>
   	<extension point="xbmc.gui.skin" debugging="false">
   		<!-- <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />

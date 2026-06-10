@@ -11,12 +11,12 @@ plugin.video.eduteamo/moria.cm3
 Thumbs.db
 
 # Ignorar carpetas de código fuente local (se quedan localmente pero no en GitHub)
-plugin.video.eduteamo/
-skin.estuary.eduteamo/
-plugin.video.palantir3/
-skin.estuary.palantir/
-repo_estupalant_temp/
-repository.estupalant/
+/plugin.video.eduteamo/
+/skin.estuary.eduteamo/
+/plugin.video.palantir3/
+/skin.estuary.palantir/
+/repo_estupalant_temp/
+/repository.estupalant/
 
 # Ignorar scripts auxiliares, desensamblados y archivos de prueba en la raíz
 *.py
@@ -27,6 +27,7 @@ repository.estupalant/
 
 # Excepciones: Sí queremos rastrear estos archivos necesarios para instalar desde Kodi
 !repository.eduteamo.zip
+!repo_eduteamo/**/*.zip
 !index.html
 !.nojekyll
 !.gitignore
