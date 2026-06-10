@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shortcuts>
+   <shortcut>
+        <label>Home</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>menuhomeeduteamo</defaultID>
+        <icon>Eduteamo/iconsmenu/icon.png</icon>
+        <action>ActivateWindow(Videos,"plugin://plugin.video.eduteamo/?HZl5yblRWa25ibpdWdsB3Lz52bkRWYvUWbvh2LvoDbhl2YlB3cnAiOiQnch5WYmJCIscSduVWbnAiOi42bpR3YhJyeQfnM2chBCZp9VblRXagknYgIVREJ1TgATMg0DIkl2X15WZtBSZyVGa3Byc15WZtBSbvJnZgQnch5WYmxCbxNHLu92YpxibvlGdjFGLsVmYhxGI0NWZsV2cnAiOiwWczJCIscybtFUZUVHZFdCI6ICblJWYsJCIscyZuBnLu92Yp9ybtFWZ0VHZl5yblRWa25ibpdWdsB3Lz52bkRWYvUWbvh2LvoDbhl2YlB3cnAiOi42bjlmIgwyJml2ZuQnch5WYm9ybtFWZ0V",return)</action>
+        <visible>System.AddonIsEnabled(plugin.video.eduteamo)</visible>
+    </shortcut>
+    <shortcut>
+        <label>Películas</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>menueduteamo2</defaultID>
+        <icon>Eduteamo/iconsmenu/peliculas.png</icon>
+        <action>ActivateWindow(Videos,$VAR[p3Peliculas],return)</action>
+        <visible>System.AddonIsEnabled(plugin.video.eduteamo)</visible>
+    </shortcut>
+    <shortcut>
+        <label>Series</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>menueduteamo</defaultID>
+        <icon>Eduteamo/iconsmenu/series.png</icon>
+        <action>ActivateWindow(Videos,"$VAR[p3Series]",return)</action>
+        <visible>System.AddonIsEnabled(plugin.video.eduteamo)</visible>
+    </shortcut>
+    <shortcut>
+        <label>Favoritos</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>menueduteamoFavoritos</defaultID>
+        <icon>Eduteamo/iconsmenu/favourites.png</icon>
+        <action>ActivateWindow(Videos,"$VAR[p3Favoritos]",return)</action>
+        <visible>System.AddonIsEnabled(plugin.video.eduteamo) + [!String.IsEmpty(Window(home).Property(p3PelisFavoritasPath)) | !String.IsEmpty(Window(home).Property(p3SeriesFavoritasPath))] + !Skin.HasSetting(OcultarWidgetFavoritosEduteamo)</visible>
+    </shortcut>
+    <shortcut>
+        <label>24001</label>
+        <label2>Common Shortcut</label2>
+        <defaultID>addons</defaultID>
+        <icon>Eduteamo/iconsmenu/addons.png</icon>
+        <action>ActivateWindow(1100)</action>
+    </shortcut>
+</shortcuts>

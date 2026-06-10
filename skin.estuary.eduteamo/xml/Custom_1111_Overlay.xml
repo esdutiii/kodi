@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<window  id="1111">
+	<defaultcontrol>200006</defaultcontrol>
+	
+	<controls>
+		<include condition="String.IsEqual(Skin.String(UpNext),Flix) | String.IsEmpty(Skin.String(UpNext))">ModoFlix</include>
+		<include condition="String.IsEqual(Skin.String(UpNext),Notificación)">ModoNotificacion</include>
+	</controls>				
+</window>

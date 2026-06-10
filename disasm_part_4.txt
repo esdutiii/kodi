@@ -1,0 +1,798 @@
+
+# pydisasm version 6.3.0
+# CPython Python bytecode 3.8 (-1)
+#   Disassembled from CPython Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+# Method Name:       IIiI1i
+# Filename:          <string>
+# Argument count:    1
+# Position-only argument count: 0
+# Keyword-only arguments: 0
+# Number of locals:  15
+# Stack size:        9
+# Flags:             0x00000003 (NEWLOCALS | OPTIMIZED)
+# First Line:        234
+# Constants:
+#    0: None
+#    1: 'menu'
+#    2: ('play_mis_serieS', 'selectvideos_', 'play_nextEpisode')
+#    3: True
+#    4: False
+#    5: 'WidgetRandom'
+#    6: <Code38 code object <lambda> at 0x1624b8a3210, file <string>>, line 254
+#    7: 'IIiI1i.<locals>.<lambda>'
+#    8: ('target',)
+#    9: 'libs.ioiI1iIiiIi'
+#   10: ('fromlist',)
+#   11: ','
+#   12: <Code38 code object <listcomp> at 0x1624c5b3790, file <string>>, line 265
+#   13: 'IIiI1i.<locals>.<listcomp>'
+#   14: 3
+#   15: ('days',)
+#   16: ('pickle_data', 'sub_categoria', 'expiration', 'inWidget')
+#   17: '<listcomp>'
+#   18: ''
+#   19: (50, 51, 55)
+#   20: ']([^\\[]+)'
+#   21: ' '
+#   22: '\\\\n|\\\\r|\\\\t|\\\\s{2}|&nbsp;'
+#   23: '%s?%s'
+#   24: 1
+#   25: '\\[[^\\]]*]'
+#   26: '[COLOR Ffd414fc]Palantir 3[/COLOR] - '
+#   27: '\\s+'
+#   28: '[COLOR Ffd414fc]Palantir 3[/COLOR]'
+#   29: 'breadcrumbs_label'
+#   30: ('handle', 'key', 'value')
+#   31: ('handle', 'sortMethod')
+#   32: ('handle', 'succeeded', 'cacheToDisc')
+#   33: 100
+#   34: 'Container.SetViewMode(%s)'
+# Names:
+#    0: list
+#    1: oOo0O00
+#    2: ooOOO
+#    3: IIiIIiIi11I1
+#    4: OooOoo
+#    5: I1I
+#    6: OOO00000O
+#    7: action
+#    8: is_label
+#    9: i1iiIII111
+#   10: Iii1i
+#   11: o0
+#   12: iI1iII1I1I1i
+#   13: Ii111
+#   14: ooo000
+#   15: isWidget
+#   16: Oo
+#   17: CACHE
+#   18: get
+#   19: nameWidget
+#   20: Thread
+#   21: daemon
+#   22: start
+#   23: i1i1i1111I
+#   24: o0i1i
+#   25: getattr
+#   26: __import__
+#   27: i1
+#   28: Ooo0Ooo
+#   29: join
+#   30: datetime
+#   31: timedelta
+#   32: set
+#   33: content
+#   34: Watched
+#   35: getView
+#   36: label
+#   37: I1Ii1I1
+#   38: re
+#   39: findall
+#   40: startswith
+#   41: sub
+#   42: xbmcgui
+#   43: ListItem
+#   44: title
+#   45: IiIIii11Ii
+#   46: isPlayable
+#   47: isinstance
+#   48: isFolder
+#   49: bool
+#   50: setInfoTag
+#   51: append
+#   52: sys
+#   53: argv
+#   54: tourl
+#   55: xbmcplugin
+#   56: addDirectoryItems
+#   57: int
+#   58: len
+#   59: strip
+#   60: setProperty
+#   61: addSortMethod
+#   62: SORT_METHOD_NONE
+#   63: setContent
+#   64: endOfDirectory
+#   65: ISESTUARYPALANTIR
+#   66: xbmc
+#   67: sleep
+#   68: executebuiltin
+#   69: Ii
+# Varnames:
+#	p3Item, OoOOooO0oOO0Oo, iiI1i1IiiiIi1, Oo0o0Oo, oOO, ii1IiiIiI, Ooo0O00o, O0ooOO0O0O0O, I11I1iI, OOOoo, Ii1Ii1, I111i1i11iII, i11I1IiIiI1i, ii11I1i1i, o0OOo0OoO
+# Positional arguments:
+#	p3Item
+# Local variables:
+#    1: OoOOooO0oOO0Oo
+#    2: iiI1i1IiiiIi1
+#    3: Oo0o0Oo
+#    4: oOO
+#    5: ii1IiiIiI
+#    6: Ooo0O00o
+#    7: O0ooOO0O0O0O
+#    8: I11I1iI
+#    9: OOOoo
+#   10: Ii1Ii1
+#   11: I111i1i11iII
+#   12: i11I1IiIiI1i
+#   13: ii11I1i1i
+#   14: o0OOo0OoO
+# Free variables:
+#    0: p3Item
+
+# Method Name:       IIiI1i
+# Filename:          <string>
+# Argument count:    1
+# Position-only argument count: 0
+# Keyword-only arguments: 0
+# Number of locals:  15
+# Stack size:        9
+# Flags:             0x00000003 (NEWLOCALS | OPTIMIZED)
+# First Line:        234
+# Constants:
+#    0: None
+#    1: 'menu'
+#    2: ('play_mis_serieS', 'selectvideos_', 'play_nextEpisode')
+#    3: True
+#    4: False
+#    5: 'WidgetRandom'
+#    6: <Code38 code object <lambda> at 0x1624b8a3210, file <string>>, line 254
+#    7: 'IIiI1i.<locals>.<lambda>'
+#    8: ('target',)
+#    9: 'libs.ioiI1iIiiIi'
+#   10: ('fromlist',)
+#   11: ','
+#   12: <Code38 code object <listcomp> at 0x1624c5b3790, file <string>>, line 265
+#   13: 'IIiI1i.<locals>.<listcomp>'
+#   14: 3
+#   15: ('days',)
+#   16: ('pickle_data', 'sub_categoria', 'expiration', 'inWidget')
+#   17: '<listcomp>'
+#   18: ''
+#   19: (50, 51, 55)
+#   20: ']([^\\[]+)'
+#   21: ' '
+#   22: '\\\\n|\\\\r|\\\\t|\\\\s{2}|&nbsp;'
+#   23: '%s?%s'
+#   24: 1
+#   25: '\\[[^\\]]*]'
+#   26: '[COLOR Ffd414fc]Palantir 3[/COLOR] - '
+#   27: '\\s+'
+#   28: '[COLOR Ffd414fc]Palantir 3[/COLOR]'
+#   29: 'breadcrumbs_label'
+#   30: ('handle', 'key', 'value')
+#   31: ('handle', 'sortMethod')
+#   32: ('handle', 'succeeded', 'cacheToDisc')
+#   33: 100
+#   34: 'Container.SetViewMode(%s)'
+# Names:
+#    0: list
+#    1: oOo0O00
+#    2: ooOOO
+#    3: IIiIIiIi11I1
+#    4: OooOoo
+#    5: I1I
+#    6: OOO00000O
+#    7: action
+#    8: is_label
+#    9: i1iiIII111
+#   10: Iii1i
+#   11: o0
+#   12: iI1iII1I1I1i
+#   13: Ii111
+#   14: ooo000
+#   15: isWidget
+#   16: Oo
+#   17: CACHE
+#   18: get
+#   19: nameWidget
+#   20: Thread
+#   21: daemon
+#   22: start
+#   23: i1i1i1111I
+#   24: o0i1i
+#   25: getattr
+#   26: __import__
+#   27: i1
+#   28: Ooo0Ooo
+#   29: join
+#   30: datetime
+#   31: timedelta
+#   32: set
+#   33: content
+#   34: Watched
+#   35: getView
+#   36: label
+#   37: I1Ii1I1
+#   38: re
+#   39: findall
+#   40: startswith
+#   41: sub
+#   42: xbmcgui
+#   43: ListItem
+#   44: title
+#   45: IiIIii11Ii
+#   46: isPlayable
+#   47: isinstance
+#   48: isFolder
+#   49: bool
+#   50: setInfoTag
+#   51: append
+#   52: sys
+#   53: argv
+#   54: tourl
+#   55: xbmcplugin
+#   56: addDirectoryItems
+#   57: int
+#   58: len
+#   59: strip
+#   60: setProperty
+#   61: addSortMethod
+#   62: SORT_METHOD_NONE
+#   63: setContent
+#   64: endOfDirectory
+#   65: ISESTUARYPALANTIR
+#   66: xbmc
+#   67: sleep
+#   68: executebuiltin
+#   69: Ii
+# Varnames:
+#	p3Item, OoOOooO0oOO0Oo, iiI1i1IiiiIi1, Oo0o0Oo, oOO, ii1IiiIiI, Ooo0O00o, O0ooOO0O0O0O, I11I1iI, OOOoo, Ii1Ii1, I111i1i11iII, i11I1IiIiI1i, ii11I1i1i, o0OOo0OoO
+# Positional arguments:
+#	p3Item
+# Local variables:
+#    1: OoOOooO0oOO0Oo
+#    2: iiI1i1IiiiIi1
+#    3: Oo0o0Oo
+#    4: oOO
+#    5: ii1IiiIiI
+#    6: Ooo0O00o
+#    7: O0ooOO0O0O0O
+#    8: I11I1iI
+#    9: OOOoo
+#   10: Ii1Ii1
+#   11: I111i1i11iII
+#   12: i11I1IiIiI1i
+#   13: ii11I1i1i
+#   14: o0OOo0OoO
+# Free variables:
+#    0: p3Item
+
+235:           0 LOAD_GLOBAL          (list)
+               2 CALL_FUNCTION        (0 positional arguments)
+               4 STORE_FAST           (OoOOooO0oOO0Oo)
+
+236:           6 LOAD_GLOBAL          (list)
+               8 CALL_FUNCTION        (0 positional arguments)
+              10 STORE_FAST           (iiI1i1IiiiIi1)
+
+239:          12 LOAD_DEREF           (p3Item)
+              14 LOAD_ATTR            (action)
+              16 POP_JUMP_IF_TRUE     (to 36)
+
+240:          18 LOAD_DEREF           (p3Item)
+              20 LOAD_METHOD          (is_label)
+              22 CALL_METHOD          (0 positional arguments)
+              24 POP_JUMP_IF_FALSE    (to 30)
+
+242:          26 LOAD_CONST           (None)
+              28 RETURN_VALUE
+
+244:     >>   30 LOAD_CONST           ("menu")
+              32 LOAD_DEREF           (p3Item)
+              34 STORE_ATTR           (action)
+
+246:     >>   36 LOAD_DEREF           (p3Item)
+              38 LOAD_ATTR            (action)
+              40 LOAD_CONST           (('play_mis_serieS', 'selectvideos_', 'play_nextEpisode'))
+              42 COMPARE_OP           (in)
+              44 POP_JUMP_IF_FALSE    (to 50)
+              46 LOAD_CONST           (True)
+              48 JUMP_FORWARD         (to 52)
+         >>   50 LOAD_CONST           (False)
+         >>   52 STORE_FAST           (Oo0o0Oo)
+
+248:          54 LOAD_DEREF           (p3Item)
+              56 LOAD_ATTR            (isWidget)
+              58 POP_JUMP_IF_FALSE    (to 136)
+
+251:          60 SETUP_FINALLY        (to 124)
+
+252:          62 LOAD_GLOBAL          (CACHE)
+              64 LOAD_METHOD          (get)
+              66 LOAD_DEREF           (p3Item)
+              68 LOAD_ATTR            (nameWidget)
+              70 CALL_METHOD          (1 positional argument)
+              72 STORE_FAST           (OoOOooO0oOO0Oo)
+
+253:          74 LOAD_FAST            (OoOOooO0oOO0Oo)
+              76 POP_JUMP_IF_FALSE    (to 120)
+              78 LOAD_DEREF           (p3Item)
+              80 LOAD_ATTR            (nameWidget)
+              82 LOAD_CONST           ("WidgetRandom")
+              84 COMPARE_OP           (==)
+              86 POP_JUMP_IF_FALSE    (to 120)
+
+254:          88 LOAD_GLOBAL          (Thread)
+              90 LOAD_CLOSURE         (p3Item)
+              92 BUILD_TUPLE          1
+              94 LOAD_CONST           (<Code38 code object <lambda> at 0x1624b8a3210, file <string>>, line 254)
+              96 LOAD_CONST           ("IIiI1i.<locals>.<lambda>")
+              98 MAKE_FUNCTION        (closure)
+             100 LOAD_CONST           (('target',))
+             102 CALL_FUNCTION_KW     (1 total positional and keyword args)
+             104 STORE_FAST           (oOO)
+
+255:         106 LOAD_CONST           (True)
+             108 LOAD_FAST            (oOO)
+             110 STORE_ATTR           (daemon)
+
+256:         112 LOAD_FAST            (oOO)
+             114 LOAD_METHOD          (start)
+             116 CALL_METHOD          (0 positional arguments)
+             118 POP_TOP
+         >>  120 POP_BLOCK
+             122 JUMP_FORWARD         (to 136)
+
+257:     >>  124 POP_TOP
+             126 POP_TOP
+             128 POP_TOP
+
+257:         130 POP_EXCEPT
+             132 JUMP_FORWARD         (to 136)
+             134 END_FINALLY
+
+259:     >>  136 LOAD_FAST            (OoOOooO0oOO0Oo)
+             138 POP_JUMP_IF_TRUE     (to 246)
+
+261:         140 LOAD_GLOBAL          (getattr)
+             142 LOAD_GLOBAL          (__import__)
+             144 LOAD_CONST           ("libs.ioiI1iIiiIi")
+             146 LOAD_DEREF           (p3Item)
+             148 LOAD_ATTR            (action)
+             150 BUILD_LIST           1
+             152 LOAD_CONST           (('fromlist',))
+             154 CALL_FUNCTION_KW     (2 total positional and keyword args)
+             156 LOAD_DEREF           (p3Item)
+             158 LOAD_ATTR            (action)
+             160 CALL_FUNCTION        (2 positional arguments)
+             162 LOAD_DEREF           (p3Item)
+             164 CALL_FUNCTION        (1 positional argument)
+             166 STORE_FAST           (OoOOooO0oOO0Oo)
+
+263:         168 LOAD_DEREF           (p3Item)
+             170 LOAD_ATTR            (isWidget)
+             172 POP_JUMP_IF_FALSE    (to 246)
+             174 LOAD_FAST            (OoOOooO0oOO0Oo)
+             176 POP_JUMP_IF_FALSE    (to 246)
+             178 LOAD_DEREF           (p3Item)
+             180 LOAD_ATTR            (nameWidget)
+             182 LOAD_CONST           ("WidgetRandom")
+             184 COMPARE_OP           (!=)
+             186 POP_JUMP_IF_FALSE    (to 246)
+
+265:         188 LOAD_CONST           (",")
+             190 LOAD_METHOD          (join)
+             192 LOAD_CONST           (<Code38 code object <listcomp> at 0x1624c5b3790, file <string>>, line 265)
+             194 LOAD_CONST           ("IIiI1i.<locals>.<listcomp>")
+             196 MAKE_FUNCTION        (No arguments)
+             198 LOAD_FAST            (OoOOooO0oOO0Oo)
+             200 GET_ITER
+             202 CALL_FUNCTION        (1 positional argument)
+             204 CALL_METHOD          (1 positional argument)
+             206 STORE_FAST           (ii1IiiIiI)
+
+266:         208 LOAD_GLOBAL          (datetime)
+             210 LOAD_ATTR            (timedelta)
+             212 LOAD_CONST           (3)
+             214 LOAD_CONST           (('days',))
+             216 CALL_FUNCTION_KW     (1 total positional and keyword args)
+             218 STORE_FAST           (Ooo0O00o)
+
+267:         220 LOAD_GLOBAL          (CACHE)
+             222 LOAD_ATTR            (set)
+             224 LOAD_DEREF           (p3Item)
+             226 LOAD_ATTR            (nameWidget)
+             228 LOAD_FAST            (OoOOooO0oOO0Oo)
+             230 LOAD_CONST           (True)
+             232 LOAD_DEREF           (p3Item)
+             234 LOAD_ATTR            (content)
+             236 LOAD_FAST            (Ooo0O00o)
+
+268:         238 LOAD_FAST            (ii1IiiIiI)
+
+267:         240 LOAD_CONST           (('pickle_data', 'sub_categoria', 'expiration', 'inWidget'))
+             242 CALL_FUNCTION_KW     (6 total positional and keyword args)
+             244 POP_TOP
+
+270:     >>  246 LOAD_FAST            (OoOOooO0oOO0Oo)
+             248 EXTENDED_ARG         (512)
+             250 POP_JUMP_IF_FALSE    (to 752)
+
+272:         252 LOAD_FAST            (OoOOooO0oOO0Oo)
+             254 LOAD_CONST           ("<listcomp>")
+             256 BINARY_SUBSCR
+             258 LOAD_ATTR            (content)
+             260 STORE_FAST           (O0ooOO0O0O0O)
+
+273:         262 LOAD_GLOBAL          (Watched)
+             264 CALL_FUNCTION        (0 positional arguments)
+             266 SETUP_WITH           (to 284)
+             268 STORE_FAST           (I11I1iI)
+
+274:         270 LOAD_FAST            (I11I1iI)
+             272 LOAD_METHOD          (getView)
+             274 LOAD_FAST            (O0ooOO0O0O0O)
+             276 CALL_METHOD          (1 positional argument)
+             278 STORE_FAST           (OOOoo)
+
+275:         280 POP_BLOCK
+             282 BEGIN_FINALLY
+         >>  284 WITH_CLEANUP_START
+             286 WITH_CLEANUP_FINISH
+             288 END_FINALLY
+
+276:         290 LOAD_CONST           ("")
+             292 STORE_FAST           (Ii1Ii1)
+
+277:         294 LOAD_FAST            (OoOOooO0oOO0Oo)
+             296 GET_ITER
+         >>  298 FOR_ITER             (to 536)
+             300 STORE_FAST           (I111i1i11iII)
+
+278:         302 LOAD_FAST            (I111i1i11iII)
+             304 LOAD_METHOD          (is_label)
+             306 CALL_METHOD          (0 positional arguments)
+             308 EXTENDED_ARG         (256)
+             310 POP_JUMP_IF_FALSE    (to 332)
+             312 LOAD_FAST            (OOOoo)
+             314 LOAD_CONST           ((50, 51, 55))
+             316 COMPARE_OP           (not-in)
+             318 EXTENDED_ARG         (256)
+             320 POP_JUMP_IF_FALSE    (to 332)
+
+280:         322 LOAD_FAST            (I111i1i11iII)
+             324 LOAD_ATTR            (label)
+             326 STORE_FAST           (Ii1Ii1)
+
+281:         328 EXTENDED_ARG         (256)
+             330 JUMP_ABSOLUTE        (to 298)
+
+283:     >>  332 LOAD_FAST            (Ii1Ii1)
+             334 EXTENDED_ARG         (256)
+             336 POP_JUMP_IF_FALSE    (to 414)
+
+284:         338 SETUP_FINALLY        (to 398)
+
+285:         340 LOAD_GLOBAL          (re)
+             342 LOAD_METHOD          (findall)
+             344 LOAD_CONST           ("]([^\\[]+)")
+             346 LOAD_FAST            (I111i1i11iII)
+             348 LOAD_ATTR            (label)
+             350 CALL_METHOD          (2 positional arguments)
+             352 LOAD_CONST           ("<listcomp>")
+             354 BINARY_SUBSCR
+             356 LOAD_METHOD          (startswith)
+             358 LOAD_CONST           (" ")
+             360 CALL_METHOD          (1 positional argument)
+             362 EXTENDED_ARG         (256)
+             364 POP_JUMP_IF_FALSE    (to 390)
+
+286:         366 LOAD_GLOBAL          (re)
+             368 LOAD_METHOD          (sub)
+             370 LOAD_CONST           ("\\\\n|\\\\r|\\\\t|\\\\s{2}|&nbsp;")
+             372 LOAD_CONST           ("")
+             374 LOAD_FAST            (Ii1Ii1)
+             376 LOAD_FAST            (I111i1i11iII)
+             378 LOAD_ATTR            (label)
+             380 BINARY_ADD
+             382 CALL_METHOD          (3 positional arguments)
+             384 LOAD_FAST            (I111i1i11iII)
+             386 STORE_ATTR           (label)
+             388 JUMP_FORWARD         (to 394)
+
+288:     >>  390 LOAD_CONST           ("")
+             392 STORE_FAST           (Ii1Ii1)
+         >>  394 POP_BLOCK
+             396 JUMP_FORWARD         (to 414)
+
+289:     >>  398 POP_TOP
+             400 POP_TOP
+             402 POP_TOP
+
+290:         404 LOAD_CONST           ("")
+             406 STORE_FAST           (Ii1Ii1)
+
+291:         408 POP_EXCEPT
+             410 JUMP_FORWARD         (to 414)
+             412 END_FINALLY
+
+292:     >>  414 LOAD_GLOBAL          (xbmcgui)
+             416 LOAD_METHOD          (ListItem)
+             418 LOAD_FAST            (I111i1i11iII)
+             420 LOAD_ATTR            (label)
+             422 EXTENDED_ARG         (256)
+             424 JUMP_IF_TRUE_OR_POP  (to 430)
+             426 LOAD_FAST            (I111i1i11iII)
+             428 LOAD_ATTR            (title)
+         >>  430 CALL_METHOD          (1 positional argument)
+             432 STORE_FAST           (i11I1IiIiI1i)
+
+294:         434 LOAD_FAST            (I111i1i11iII)
+             436 LOAD_ATTR            (isPlayable)
+             438 EXTENDED_ARG         (256)
+             440 POP_JUMP_IF_FALSE    (to 448)
+
+295:         442 LOAD_CONST           (False)
+             444 STORE_FAST           (ii11I1i1i)
+             446 JUMP_FORWARD         (to 488)
+
+296:     >>  448 LOAD_GLOBAL          (isinstance)
+             450 LOAD_FAST            (I111i1i11iII)
+             452 LOAD_ATTR            (isFolder)
+             454 LOAD_GLOBAL          (bool)
+             456 CALL_FUNCTION        (2 positional arguments)
+             458 EXTENDED_ARG         (256)
+             460 POP_JUMP_IF_FALSE    (to 470)
+
+297:         462 LOAD_FAST            (I111i1i11iII)
+             464 LOAD_ATTR            (isFolder)
+             466 STORE_FAST           (ii11I1i1i)
+             468 JUMP_FORWARD         (to 488)
+
+298:     >>  470 LOAD_FAST            (I111i1i11iII)
+             472 LOAD_ATTR            (action)
+             474 EXTENDED_ARG         (256)
+             476 POP_JUMP_IF_TRUE     (to 484)
+
+299:         478 LOAD_CONST           (False)
+             480 STORE_FAST           (ii11I1i1i)
+             482 JUMP_FORWARD         (to 488)
+
+301:     >>  484 LOAD_CONST           (True)
+             486 STORE_FAST           (ii11I1i1i)
+
+303:     >>  488 LOAD_GLOBAL          (setInfoTag)
+             490 LOAD_FAST            (i11I1IiIiI1i)
+             492 LOAD_FAST            (I111i1i11iII)
+             494 CALL_FUNCTION        (2 positional arguments)
+             496 POP_TOP
+
+304:         498 LOAD_FAST            (iiI1i1IiiiIi1)
+             500 LOAD_METHOD          (append)
+             502 LOAD_CONST           ("%s?%s")
+             504 LOAD_GLOBAL          (sys)
+             506 LOAD_ATTR            (argv)
+             508 LOAD_CONST           ("<listcomp>")
+             510 BINARY_SUBSCR
+             512 LOAD_FAST            (I111i1i11iII)
+             514 LOAD_METHOD          (tourl)
+             516 CALL_METHOD          (0 positional arguments)
+             518 BUILD_TUPLE          2
+             520 BINARY_MODULO
+
+305:         522 LOAD_FAST            (i11I1IiIiI1i)
+
+306:         524 LOAD_FAST            (ii11I1i1i)
+
+304:         526 BUILD_TUPLE          3
+             528 CALL_METHOD          (1 positional argument)
+             530 POP_TOP
+
+307:         532 EXTENDED_ARG         (256)
+             534 JUMP_ABSOLUTE        (to 298)
+
+308:     >>  536 LOAD_FAST            (iiI1i1IiiiIi1)
+             538 EXTENDED_ARG         (512)
+             540 POP_JUMP_IF_FALSE    (to 648)
+
+309:         542 LOAD_GLOBAL          (xbmcplugin)
+             544 LOAD_METHOD          (addDirectoryItems)
+             546 LOAD_GLOBAL          (int)
+             548 LOAD_GLOBAL          (sys)
+             550 LOAD_ATTR            (argv)
+             552 LOAD_CONST           (1)
+             554 BINARY_SUBSCR
+             556 CALL_FUNCTION        (1 positional argument)
+             558 LOAD_FAST            (iiI1i1IiiiIi1)
+             560 LOAD_GLOBAL          (len)
+             562 LOAD_FAST            (iiI1i1IiiiIi1)
+             564 CALL_FUNCTION        (1 positional argument)
+             566 CALL_METHOD          (3 positional arguments)
+             568 POP_TOP
+
+311:         570 LOAD_DEREF           (p3Item)
+             572 LOAD_ATTR            (label)
+             574 EXTENDED_ARG         (512)
+             576 POP_JUMP_IF_FALSE    (to 618)
+
+312:         578 LOAD_GLOBAL          (re)
+             580 LOAD_METHOD          (sub)
+             582 LOAD_CONST           ("\\[[^\\]]*]")
+             584 LOAD_CONST           ("")
+             586 LOAD_DEREF           (p3Item)
+             588 LOAD_ATTR            (label)
+             590 CALL_METHOD          (3 positional arguments)
+             592 STORE_FAST           (o0OOo0OoO)
+
+313:         594 LOAD_CONST           ("[COLOR Ffd414fc]Palantir 3[/COLOR] - ")
+             596 LOAD_GLOBAL          (re)
+             598 LOAD_METHOD          (sub)
+             600 LOAD_CONST           ("\\s+")
+             602 LOAD_CONST           (" ")
+             604 LOAD_FAST            (o0OOo0OoO)
+             606 CALL_METHOD          (3 positional arguments)
+             608 LOAD_METHOD          (strip)
+             610 CALL_METHOD          (0 positional arguments)
+             612 BINARY_ADD
+             614 STORE_FAST           (o0OOo0OoO)
+             616 JUMP_FORWARD         (to 622)
+
+315:     >>  618 LOAD_CONST           ("[COLOR Ffd414fc]Palantir 3[/COLOR]")
+             620 STORE_FAST           (o0OOo0OoO)
+
+316:     >>  622 LOAD_GLOBAL          (xbmcplugin)
+             624 LOAD_ATTR            (setProperty)
+             626 LOAD_GLOBAL          (int)
+             628 LOAD_GLOBAL          (sys)
+             630 LOAD_ATTR            (argv)
+             632 LOAD_CONST           (1)
+             634 BINARY_SUBSCR
+             636 CALL_FUNCTION        (1 positional argument)
+             638 LOAD_CONST           ("breadcrumbs_label")
+             640 LOAD_FAST            (o0OOo0OoO)
+             642 LOAD_CONST           (('handle', 'key', 'value'))
+             644 CALL_FUNCTION_KW     (3 total positional and keyword args)
+             646 POP_TOP
+
+318:     >>  648 LOAD_GLOBAL          (xbmcplugin)
+             650 LOAD_ATTR            (addSortMethod)
+             652 LOAD_GLOBAL          (int)
+             654 LOAD_GLOBAL          (sys)
+             656 LOAD_ATTR            (argv)
+             658 LOAD_CONST           (1)
+             660 BINARY_SUBSCR
+             662 CALL_FUNCTION        (1 positional argument)
+             664 LOAD_GLOBAL          (xbmcplugin)
+             666 LOAD_ATTR            (SORT_METHOD_NONE)
+             668 LOAD_CONST           (('handle', 'sortMethod'))
+             670 CALL_FUNCTION_KW     (2 total positional and keyword args)
+             672 POP_TOP
+
+319:         674 LOAD_GLOBAL          (xbmcplugin)
+             676 LOAD_METHOD          (setContent)
+             678 LOAD_GLOBAL          (int)
+             680 LOAD_GLOBAL          (sys)
+             682 LOAD_ATTR            (argv)
+             684 LOAD_CONST           (1)
+             686 BINARY_SUBSCR
+             688 CALL_FUNCTION        (1 positional argument)
+             690 LOAD_FAST            (O0ooOO0O0O0O)
+             692 CALL_METHOD          (2 positional arguments)
+             694 POP_TOP
+
+320:         696 LOAD_GLOBAL          (xbmcplugin)
+             698 LOAD_ATTR            (endOfDirectory)
+             700 LOAD_GLOBAL          (int)
+             702 LOAD_GLOBAL          (sys)
+             704 LOAD_ATTR            (argv)
+             706 LOAD_CONST           (1)
+             708 BINARY_SUBSCR
+             710 CALL_FUNCTION        (1 positional argument)
+             712 LOAD_CONST           (True)
+             714 LOAD_FAST            (Oo0o0Oo)
+             716 LOAD_CONST           (('handle', 'succeeded', 'cacheToDisc'))
+             718 CALL_FUNCTION_KW     (3 total positional and keyword args)
+             720 POP_TOP
+
+321:         722 LOAD_GLOBAL          (ISESTUARYPALANTIR)
+             724 EXTENDED_ARG         (512)
+             726 POP_JUMP_IF_TRUE     (to 752)
+
+322:         728 LOAD_GLOBAL          (xbmc)
+             730 LOAD_METHOD          (sleep)
+             732 LOAD_CONST           (100)
+             734 CALL_METHOD          (1 positional argument)
+             736 POP_TOP
+
+323:         738 LOAD_GLOBAL          (xbmc)
+             740 LOAD_METHOD          (executebuiltin)
+             742 LOAD_CONST           ("Container.SetViewMode(%s)")
+             744 LOAD_FAST            (OOOoo)
+             746 BINARY_MODULO
+             748 CALL_METHOD          (1 positional argument)
+             750 POP_TOP
+
+325:     >>  752 LOAD_CONST           (None)
+             754 RETURN_VALUE
+
+
+# Method Name:       <lambda>
+# Filename:          <string>
+# Argument count:    0
+# Position-only argument count: 0
+# Keyword-only arguments: 0
+# Number of locals:  0
+# Stack size:        5
+# Flags:             0x00000013 (NESTED | NEWLOCALS | OPTIMIZED)
+# First Line:        254
+# Constants:
+#    0: None
+#    1: 'libs.ioiI1iIiiIi'
+#    2: 'listado_random'
+#    3: ('fromlist',)
+# Names:
+#    0: getattr
+#    1: __import__
+# Cell variables:
+#    0: p3Item
+
+254:           0 LOAD_GLOBAL          (getattr)
+               2 LOAD_GLOBAL          (__import__)
+               4 LOAD_CONST           ("libs.ioiI1iIiiIi")
+               6 LOAD_CONST           ("listado_random")
+               8 BUILD_LIST           1
+              10 LOAD_CONST           (('fromlist',))
+              12 CALL_FUNCTION_KW     (2 total positional and keyword args)
+              14 LOAD_CONST           ("listado_random")
+              16 CALL_FUNCTION        (2 positional arguments)
+              18 LOAD_DEREF           (p3Item)
+              20 CALL_FUNCTION        (1 positional argument)
+              22 RETURN_VALUE
+
+
+# Method Name:       <listcomp>
+# Filename:          <string>
+# Argument count:    1
+# Position-only argument count: 0
+# Keyword-only arguments: 0
+# Number of locals:  2
+# Stack size:        3
+# Flags:             0x00000053 (NOFREE | NESTED | NEWLOCALS | OPTIMIZED)
+# First Line:        265
+# Names:
+#    0: tmdb
+# Varnames:
+#	.0, it
+# Positional arguments:
+#	.0
+# Local variables:
+#    1: it
+
+265:           0 BUILD_LIST           0
+               2 LOAD_FAST            (.0)
+         >>    4 FOR_ITER             (to 22)
+
+265:           6 STORE_FAST           (it)
+
+265:           8 LOAD_FAST            (it)
+              10 LOAD_ATTR            (tmdb)
+              12 POP_JUMP_IF_FALSE    (to 4)
+
+265:          14 LOAD_FAST            (it)
+              16 LOAD_ATTR            (tmdb)
+              18 LIST_APPEND          2
+              20 JUMP_ABSOLUTE        (to 4)
+         >>   22 RETURN_VALUE
+
+

@@ -1,0 +1,226 @@
+
+# pydisasm version 6.3.0
+# CPython Python bytecode 3.8 (-1)
+#   Disassembled from CPython Python 3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]
+# Method Name:       I1ii1111IIi
+# Filename:          <string>
+# Argument count:    2
+# Position-only argument count: 0
+# Keyword-only arguments: 0
+# Number of locals:  6
+# Stack size:        10
+# Flags:             0x00000043 (NOFREE | NEWLOCALS | OPTIMIZED)
+# First Line:        64
+# Constants:
+#    0: None
+#    1: 'p3download_videoLock'
+#    2: 'true'
+#    3: 'true'
+#    4: 'download video...'
+#    5: 'wb'
+#    6: 'video_intro'
+#    7: 'download_video: %s'
+#    8: 'error'
+# Names:
+#    0: WINDOW
+#    1: getProperty
+#    2: setProperty
+#    3: i1
+#    4: ooo000
+#    5: oOo0O00
+#    6: i1iiIII111
+#    7: Iii1i
+#    8: requests
+#    9: clearProperty
+#   10: o0i1i
+#   11: I1I
+#   12: OOO00000O
+#   13: ooOOO
+#   14: i1i1i1111I
+#   15: Ii
+#   16: logger
+#   17: get
+#   18: Ii111
+#   19: raise_for_status
+#   20: open
+#   21: write
+#   22: content
+#   23: OooOoo
+#   24: set_setting
+#   25: Exception
+#   26: str
+# Varnames:
+#	url, video_path, requests, ii1IiIiiII, iiI, o00
+# Positional arguments:
+#	url, video_path
+# Local variables:
+#    2: requests
+#    3: ii1IiIiiII
+#    4: iiI
+#    5: o00
+
+# Method Name:       I1ii1111IIi
+# Filename:          <string>
+# Argument count:    2
+# Position-only argument count: 0
+# Keyword-only arguments: 0
+# Number of locals:  6
+# Stack size:        10
+# Flags:             0x00000043 (NOFREE | NEWLOCALS | OPTIMIZED)
+# First Line:        64
+# Constants:
+#    0: None
+#    1: 'p3download_videoLock'
+#    2: 'true'
+#    3: 'true'
+#    4: 'download video...'
+#    5: 'wb'
+#    6: 'video_intro'
+#    7: 'download_video: %s'
+#    8: 'error'
+# Names:
+#    0: WINDOW
+#    1: getProperty
+#    2: setProperty
+#    3: i1
+#    4: ooo000
+#    5: oOo0O00
+#    6: i1iiIII111
+#    7: Iii1i
+#    8: requests
+#    9: clearProperty
+#   10: o0i1i
+#   11: I1I
+#   12: OOO00000O
+#   13: ooOOO
+#   14: i1i1i1111I
+#   15: Ii
+#   16: logger
+#   17: get
+#   18: Ii111
+#   19: raise_for_status
+#   20: open
+#   21: write
+#   22: content
+#   23: OooOoo
+#   24: set_setting
+#   25: Exception
+#   26: str
+# Varnames:
+#	url, video_path, requests, ii1IiIiiII, iiI, o00
+# Positional arguments:
+#	url, video_path
+# Local variables:
+#    2: requests
+#    3: ii1IiIiiII
+#    4: iiI
+#    5: o00
+
+ 65:           0 LOAD_GLOBAL          (WINDOW)
+               2 LOAD_METHOD          (getProperty)
+               4 LOAD_CONST           ("p3download_videoLock")
+               6 CALL_METHOD          (1 positional argument)
+               8 LOAD_CONST           ("true")
+              10 COMPARE_OP           (!=)
+              12 POP_JUMP_IF_FALSE    (to 180)
+
+ 66:          14 LOAD_GLOBAL          (WINDOW)
+              16 LOAD_METHOD          (setProperty)
+              18 LOAD_CONST           ("p3download_videoLock")
+              20 LOAD_CONST           ("true")
+              22 CALL_METHOD          (2 positional arguments)
+              24 POP_TOP
+
+ 68:          26 LOAD_CONST           ("true")
+              28 LOAD_CONST           (None)
+              30 IMPORT_NAME          (requests)
+              32 STORE_FAST           (requests)
+
+ 69:          34 SETUP_FINALLY        (to 168)
+              36 SETUP_FINALLY        (to 112)
+
+ 70:          38 LOAD_GLOBAL          (logger)
+              40 LOAD_CONST           ("download video...")
+              42 CALL_FUNCTION        (1 positional argument)
+              44 POP_TOP
+
+ 71:          46 LOAD_FAST            (requests)
+              48 LOAD_METHOD          (get)
+              50 LOAD_FAST            (url)
+              52 CALL_METHOD          (1 positional argument)
+              54 STORE_FAST           (ii1IiIiiII)
+
+ 73:          56 LOAD_FAST            (ii1IiIiiII)
+              58 LOAD_METHOD          (raise_for_status)
+              60 CALL_METHOD          (0 positional arguments)
+              62 POP_TOP
+
+ 74:          64 LOAD_GLOBAL          (open)
+              66 LOAD_FAST            (video_path)
+              68 LOAD_CONST           ("wb")
+              70 CALL_FUNCTION        (2 positional arguments)
+              72 SETUP_WITH           (to 92)
+              74 STORE_FAST           (iiI)
+
+ 75:          76 LOAD_FAST            (iiI)
+              78 LOAD_METHOD          (write)
+              80 LOAD_FAST            (ii1IiIiiII)
+              82 LOAD_ATTR            (content)
+              84 CALL_METHOD          (1 positional argument)
+              86 POP_TOP
+
+ 76:          88 POP_BLOCK
+              90 BEGIN_FINALLY
+         >>   92 WITH_CLEANUP_START
+              94 WITH_CLEANUP_FINISH
+              96 END_FINALLY
+
+ 77:          98 LOAD_GLOBAL          (set_setting)
+             100 LOAD_CONST           ("video_intro")
+             102 LOAD_FAST            (url)
+             104 CALL_FUNCTION        (2 positional arguments)
+             106 POP_TOP
+             108 POP_BLOCK
+             110 JUMP_FORWARD         (to 164)
+
+ 78:     >>  112 DUP_TOP
+             114 LOAD_GLOBAL          (Exception)
+             116 COMPARE_OP           (exception-match)
+             118 POP_JUMP_IF_FALSE    (to 162)
+             120 POP_TOP
+             122 STORE_FAST           (o00)
+             124 POP_TOP
+             126 SETUP_FINALLY        (to 150)
+
+ 79:         128 LOAD_GLOBAL          (logger)
+             130 LOAD_CONST           ("download_video: %s")
+             132 LOAD_GLOBAL          (str)
+             134 LOAD_FAST            (o00)
+             136 CALL_FUNCTION        (1 positional argument)
+             138 BINARY_MODULO
+             140 LOAD_CONST           ("error")
+             142 CALL_FUNCTION        (2 positional arguments)
+             144 POP_TOP
+             146 POP_BLOCK
+             148 BEGIN_FINALLY
+         >>  150 LOAD_CONST           (None)
+             152 STORE_FAST           (o00)
+             154 DELETE_FAST          (o00)
+             156 END_FINALLY
+             158 POP_EXCEPT
+             160 JUMP_FORWARD         (to 164)
+         >>  162 END_FINALLY
+         >>  164 POP_BLOCK
+             166 BEGIN_FINALLY
+
+ 81:     >>  168 LOAD_GLOBAL          (WINDOW)
+             170 LOAD_METHOD          (clearProperty)
+             172 LOAD_CONST           ("p3download_videoLock")
+             174 CALL_METHOD          (1 positional argument)
+             176 POP_TOP
+
+ 83:         178 END_FINALLY
+         >>  180 LOAD_CONST           (None)
+             182 RETURN_VALUE
+
+

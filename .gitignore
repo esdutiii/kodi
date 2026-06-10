@@ -1,0 +1,12 @@
+# Ignorar archivos temporales y empaquetados pesados
+*.zip
+*.tar
+*.gz
+
+# Ignorar base de datos local pesada de moria que supera el límite de GitHub (100MB)
+plugin.video.eduteamo/moria.cm3
+**/moria.cm3
+
+# Ignorar archivos del sistema
+.DS_Store
+Thumbs.db
