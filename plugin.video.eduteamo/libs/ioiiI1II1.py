@@ -56,7 +56,7 @@ def getDateUpdate ( ) :
   ooOOooO0 = getNameTempFile ( )
   if IIII11 > '-1' :
    with MoriaDB ( ) as ii1Ii1I :
-    if iI111iiIi11i and ii1Ii1I . executeSelect ( 'SELECT version_addon from version;' ) [ 0 ] [ 0 ] == OoOoo0o :
+    if iI111iiIi11i and ii1Ii1I . executeSelect ( 'SELECT version_addon from version;' ) [ 0 ] [ 0 ] :
      try :
       oo0 = CACHE . get ( 'contents_ups' )
       if oo0 : return oo0
@@ -89,12 +89,15 @@ def getDateUpdate ( ) :
       I111Iii1Ii = I111Iii1Ii [ 0 ] . replace ( "_" , "." )
       if compare_versions ( I111Iii1Ii , o0 ) == 1 :
        o0 = I111Iii1Ii
-      if I111Iii1Ii == OoOoo0o :
+    for OO0o0O0o0 in i1IIiII11 :
+     I111Iii1Ii = re . findall ( r'moria_(.*?)\.' , OO0o0O0o0 [ 'name' ] )
+     if I111Iii1Ii :
+      I111Iii1Ii = I111Iii1Ii [ 0 ] . replace ( "_" , "." )
+      if I111Iii1Ii == o0 :
        if '.up' in OO0o0O0o0 [ 'name' ] :
         OOOO0O0ooO0O . append ( ( OO0o0O0o0 [ 'name' ] , OO0o0O0o0 [ 'download_url' ] ) )
        elif 'zm3' in OO0o0O0o0 [ 'name' ] :
         I1iIIiI1 = ( OO0o0O0o0 [ 'name' ] , OO0o0O0o0 [ 'download_url' ] )
-        if 26 - 26: Ii . i1
     if compare_versions ( OoOoo0o , o0 ) == - 1 :
      oO00o00OO = xbmcgui . Dialog ( )
      oO00o00OO . ok ( 'EduTeAmo' , localize ( 30046 ) % ( OoOoo0o , o0 ) )
