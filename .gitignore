@@ -1,5 +1,4 @@
 # Ignorar archivos temporales y empaquetados pesados
-*.zip
 *.tar
 *.gz
 
@@ -10,3 +9,24 @@ plugin.video.eduteamo/moria.cm3
 # Ignorar archivos del sistema
 .DS_Store
 Thumbs.db
+
+# Ignorar carpetas de código fuente local (se quedan localmente pero no en GitHub)
+plugin.video.eduteamo/
+skin.estuary.eduteamo/
+plugin.video.palantir3/
+skin.estuary.palantir/
+repo_estupalant_temp/
+
+# Ignorar scripts auxiliares, desensamblados y archivos de prueba en la raíz
+*.py
+*.txt
+*.ps1
+*.png
+*.zip
+
+# Excepciones: Sí queremos rastrear estos archivos necesarios para instalar desde Kodi
+!repository.eduteamo.zip
+!index.html
+!.nojekyll
+!.gitignore
+!instrucciones_instalacion.md
