@@ -13,6 +13,7 @@ Thumbs.db
 # Ignorar carpetas de código fuente local (se quedan localmente pero no en GitHub)
 /plugin.video.eduteamo/
 /skin.estuary.eduteamo/
+/plugin.video.bootcamp_data_science/
 /plugin.video.palantir3/
 /skin.estuary.palantir/
 /repo_estupalant_temp/
