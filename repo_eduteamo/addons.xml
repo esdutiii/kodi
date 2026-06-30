@@ -21,7 +21,7 @@
   	</extension>
   </addon>
 
-  <addon id="plugin.video.eduteamo" name="[COLOR gold]EduTeAmo[/COLOR]" version="3.5.3" provider-name="edu">
+  <addon id="plugin.video.eduteamo" name="[COLOR gold]CineStress[/COLOR]" version="3.5.5" provider-name="edu">
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.inputstreamhelper" version="0.5.0"/>
@@ -37,7 +37,7 @@
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
           <item library="context.py">
-            <label>[COLOR gold]MenÃº EduTeAmo...[/COLOR]</label>
+            <label>[COLOR gold]MenÃº CineStress...[/COLOR]</label>
             <visible>String.Contains(ListItem.FolderPath,eduteamo)</visible>
           </item>
         </menu>
@@ -55,11 +55,11 @@
           <screenshot>resources/media/Captura3.png</screenshot>
           <screenshot>resources/media/Captura4.png</screenshot>
       </assets>
-      <forum>https://matrix.to/#/#eduteamo-3:matrix.org</forum>
+      <forum>https://matrix.to/#/#cinestress-3:matrix.org</forum>
     </extension>
   </addon>
 
-  <addon id="skin.estuary.eduteamo" version="1.5.0" name="Estuary Eduteamo" provider-name="Eduteamo">
+  <addon id="skin.estuary.eduteamo" version="1.5.3" name="Estuary Cinestress" provider-name="Cinestress">
   	<requires>
   		<!-- <import addon="xbmc.gui" version="5.16.0" allowed-versions="5.17.0"/> -->
   		<import addon="script.skinshortcuts" version="0.4.0"/>
@@ -95,8 +95,8 @@
   			<screenshot>extras/views/Muro.png</screenshot>
   			<screenshot>extras/views/Poster.png</screenshot>
   		</assets>
-  		<summary lang="es_ES">Estuary Eduteamo, modificacion del skin creado por phil65 y Piers adaptado especialmente para Eduteamo.</summary>
-  		<summary lang="en_GB">Estuary Eduteamo, modification of the skin created by phil65 and Piers adapted especially for Eduteamo.</summary>
+  		<summary lang="es_ES">Estuary Cinestress, modificacion del skin creado por phil65 y Piers adaptado especialmente para Cinestress.</summary>
+  		<summary lang="en_GB">Estuary Cinestress, modification of the skin created by phil65 and Piers adapted especially for Cinestress.</summary>
   	</extension>
   </addon>
 
